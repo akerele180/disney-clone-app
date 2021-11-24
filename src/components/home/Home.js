@@ -18,6 +18,7 @@ const Container = styled.main`
   color: #ffffff;
   padding: 25px calc(3.5vw + 10px) 0;
   position: relative;
+  overflow: hidden;
 
   &::before {
     content: "";
