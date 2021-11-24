@@ -12,7 +12,6 @@ function Carousel() {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    // arrows: false,
   };
   return (
     <ImageSlider {...settings}>
@@ -78,6 +77,11 @@ const Wrap = styled.div`
 
     &:hover {
       border: 4px solid rgba(249, 249, 249, 0.8);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    img {
+      min-height: 270px;
     }
   }
 `;

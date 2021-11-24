@@ -52,6 +52,9 @@ const NavBar = styled.div`
   display: flex;
   font-size: 0.9rem;
   overflow-x: hidden;
+  @media screen and (max-width: 852px) {
+    justify-content: space-between;
+  }
 `;
 
 const LogoContainer = styled.div`
@@ -63,6 +66,10 @@ const LogoContainer = styled.div`
   background-repeat: no-repeat;
 `;
 const NavMenu = styled.div`
+  @media screen and (max-width: 852px) {
+    display: none !important;
+  }
+
   display: flex;
   flex: 1;
   text-transform: uppercase;
