@@ -1,11 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 import Carousel from "../carousel/Carousel";
+import MovieCards from "../moviecards/MovieCards";
 
 function Home() {
   return (
     <Container>
       <Carousel />
+      <MovieCards />
     </Container>
   );
 }
@@ -16,7 +18,7 @@ const Container = styled.main`
   min-height: calc(100vh - 70px);
   background-color: #212433;
   color: #ffffff;
-  padding: 25px calc(3.5vw + 10px) 0;
+  padding: 10px calc(3.5vw + 5px) 0;
   position: relative;
   overflow: hidden;
 

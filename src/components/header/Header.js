@@ -51,6 +51,7 @@ const NavBar = styled.div`
   background-color: #090b13;
   display: flex;
   font-size: 0.9rem;
+  overflow-x: hidden;
 `;
 
 const LogoContainer = styled.div`
