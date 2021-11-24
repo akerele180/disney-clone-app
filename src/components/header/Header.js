@@ -50,6 +50,7 @@ const NavBar = styled.div`
   height: 70px;
   background-color: #090b13;
   display: flex;
+  font-size: 0.9rem;
 `;
 
 const LogoContainer = styled.div`
