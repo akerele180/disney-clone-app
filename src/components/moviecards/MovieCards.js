@@ -38,9 +38,16 @@ const MovieCardsContainer = styled.section`
 const Wrap = styled.div`
   margin: 0 10px;
   cursor: pointer;
+  transition: transform ease 0.5s;
+  &:hover {
+    transform: scale(1.06);
+    transition: transform ease 0.5s;
+  }
   img {
+    height: 100%100vw;
     width: 100%;
     border-radius: 10px;
+    object-fit: cover;
     border: 3px solid #ffffff2c;
     box-shadow: rgb(0 0 0 /69%) 0px 26px 30px -10px,
       rgb(0 0 0 /73%) 0px 16px 10px -10px;
